@@ -1,0 +1,109 @@
+
+.game-table {
+border-collapse: separate;
+border-spacing: 2px; 
+width: auto; 
+height: auto; 
+}
+.game-table td {
+border: 2px solid black; 
+text-align: center;
+width: 60px; 
+height: 60px; 
+font-size: 24px; 
+background-color: white; 
+}
+td.puzzle-button-non-clicked{
+    background-color: aqua;
+    cursor: pointer;
+}
+button.setup-game-invisible{
+    display: none;
+}
+button.reset-game-invisible{
+    display: none;
+}
+td.puzzle-button-clicked{
+    background-color: green;
+    cursor: pointer;
+}
+td.unreached{
+    background-color: burlywood;
+}
+td.reached{
+    background-color: red;
+}
+button.setup-game {
+font-size: 20px;
+font-weight: bold;
+color: #ffffff;
+background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+border: none;   
+padding: 10px 20px; 
+cursor: pointer;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+transition: all 0.3s ease; 
+outline: none; 
+text-transform: uppercase; 
+letter-spacing: 2px; 
+display: block;
+}
+button.reset-game {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+    border: none;   
+    padding: 10px 20px; 
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+    outline: none; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    display: block;
+    }
+.button-container {
+display: flex;
+}
+.button-container-reset {
+    display: flex;
+    }
+.timer-container {
+    display: flex;
+}
+.timer-container-invisible{
+    display: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+.main-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
